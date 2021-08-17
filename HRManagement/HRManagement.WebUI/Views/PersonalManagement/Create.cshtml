@@ -1,0 +1,34 @@
+﻿@model HRManagement.Data.Entities.Personel
+@{
+    Layout = "_LayoutSirketYoneticisi";
+}
+<br /><br />
+
+      <form method="post" enctype="multipart/form-data" asp-action="AddPersonel" asp-controller="PersonalManagement">
+
+
+
+          <div class="col-sm-12">
+              <input class="form-control form-control-lg" type="text" name="FirstName" value="@Model.FirstName" placeholder="Ad"><br />
+          </div>
+          <div class="col-sm-12">
+              <input class="form-control form-control-lg" type="text" name="LastName" value="@Model.LastName" placeholder="Soyad"><br />
+          </div>
+          <div class="col-sm-12">
+              <input class="form-control form-control-lg" type="text" name="Mail" value="@Model.Mail" placeholder="Mail Adresi"><br />
+          </div>
+          <div class="col-sm-12">
+              <label for="exampleFormControlSelect2">Çalışan Departman</label>
+              <select multiple class="form-control" id="exampleFormControlSelect2" name="Departments" value="@Model.Departments">
+                  <option value="finance">Finans</option>
+                  <option value="customerService">Müşteri Hizmetleri</option>
+                  <option value="informationTech">IT</option>
+                  <option value="humanResource">İnsan Kaynakları</option>
+                  <option value="marketing">Pazarlama</option>
+              </select><br />
+          </div>
+
+
+
+          <button type="submit" class="btn btn-block btn-secondary"> Kaydet </button>
+      </form>

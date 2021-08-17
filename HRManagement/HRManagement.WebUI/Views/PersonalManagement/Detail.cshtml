@@ -1,0 +1,38 @@
+﻿@model HRManagement.Data.Entities.Personel
+@{
+    Layout = "_LayoutSirketYoneticisi";
+}
+
+<br /><br />
+
+
+<div class="row">
+    <div class="col-md-1">
+
+    </div>
+    <div class="col-md-11">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Ad</th>
+                    <th scope="col">Soyad</th>
+                    <th scope="col">İzin Türü</th>
+                    <th scope="col">İzne çıkış tarihi</th>
+                    <th scope="col">İzinden dönüş Tarihi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.FirstName</td>
+                    <td>@Model.LastName</td>
+                    <td>yıllık izin</td>
+                    <td>05.04.2021</td>
+                    <td>10.05.2021</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+</div>

@@ -1,0 +1,7 @@
+﻿@model IEnumerable<HRManagement.Data.Entities.Suggestion>
+@foreach (var item in Model)
+{
+    <span><b>Yorum yapma tarihi: </b>@item.CreatedDate.ToLongDateString()</span><br />
+    <span><b>Yorum:</b> @item.Description </span>
+    <br />
+}

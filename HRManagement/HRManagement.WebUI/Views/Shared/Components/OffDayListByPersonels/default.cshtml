@@ -1,0 +1,16 @@
+﻿@model IEnumerable<HRManagement.Data.Entities.OffDay>
+
+@foreach (var item in Model)
+{<tr>
+
+    <th scope="row">-</th>
+    <td>@item.Personel.FirstName</td>
+    <td>@item.Personel.LastName</td>
+    <td>@item.OffDayType</td>
+    <td>@item.StartDate.Value.ToShortDateString()</td>
+    <td>@item.EndDate.Value.ToShortDateString()</td>
+    <td>@item.Personel.Mail</td>
+    <td><button class="btn btn-outline-primary" style="height:40px;width:70px !important"> Onay</button></td>
+    <td><button class="btn btn-outline-primary" style="height:40px;width:70px !important"> Red</button></td>
+</tr>
+}

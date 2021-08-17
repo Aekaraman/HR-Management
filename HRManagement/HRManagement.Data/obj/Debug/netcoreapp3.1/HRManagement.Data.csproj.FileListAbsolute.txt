@@ -1,0 +1,9 @@
+D:\aek\VS\HRManagementv3\HRManagement\HRManagement.Data\bin\Debug\netcoreapp3.1\HRManagement.Data.deps.json
+D:\aek\VS\HRManagementv3\HRManagement\HRManagement.Data\bin\Debug\netcoreapp3.1\HRManagement.Data.dll
+D:\aek\VS\HRManagementv3\HRManagement\HRManagement.Data\bin\Debug\netcoreapp3.1\HRManagement.Data.pdb
+D:\aek\VS\HRManagementv3\HRManagement\HRManagement.Data\obj\Debug\netcoreapp3.1\HRManagement.Data.AssemblyInfoInputs.cache
+D:\aek\VS\HRManagementv3\HRManagement\HRManagement.Data\obj\Debug\netcoreapp3.1\HRManagement.Data.AssemblyInfo.cs
+D:\aek\VS\HRManagementv3\HRManagement\HRManagement.Data\obj\Debug\netcoreapp3.1\HRManagement.Data.csproj.CoreCompileInputs.cache
+D:\aek\VS\HRManagementv3\HRManagement\HRManagement.Data\obj\Debug\netcoreapp3.1\HRManagement.Data.dll
+D:\aek\VS\HRManagementv3\HRManagement\HRManagement.Data\obj\Debug\netcoreapp3.1\HRManagement.Data.pdb
+D:\aek\VS\HRManagementv3\HRManagement\HRManagement.Data\obj\Debug\netcoreapp3.1\HRManagement.Data.csprojAssemblyReference.cache
